@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>Git Blame</title>
+	<link rel="stylesheet" type="text/css" href="mystyle2.css" />
+	<link rel="shortcut icon" href="favicon2.png" />
+</head>
+
+<body>
+<h1>Git Blame</h1>
+<p>Have you ever found something in a shared codebase that you couldn't remember writing and couldn't understand? Git Blame can help you figure out who exactly wrote it. It's a really simple command - <command>git blame /path/to/file</command> is sufficient. But there are ways to make the output... more appropriate to your specific question. The output of <command>git blame /path/to/file</command> will give you a line for every line, with the username, time stamp, and line number all before the actual line of code. If you know which line you want, you can simply pipe it through grep - <command>git blame /path/to/file | grep 40\)</command> would show you only line 40 (unless you have other instances of "40)" in your code).</p>
+</body>

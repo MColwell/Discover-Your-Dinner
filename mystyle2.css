@@ -1,0 +1,26 @@
+body 
+{
+ margin-top:10px;
+ margin-left:15%;
+ margin-right:15%;
+ background-color: #DFE;
+ 
+}
+
+h1
+{
+ color: #100;
+ text-align: center;
+}
+
+p
+{
+ color: #222;
+ text-indent: 5%;
+}
+
+command
+{
+ color: #611;
+ font-family: Inconsolata, "Courier New", Monospace;
+}
